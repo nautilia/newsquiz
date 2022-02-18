@@ -6,10 +6,10 @@
 - C: El HTC Desire
 - D: Nokia N73
 
-<details><summary><b>Respuesta</b></summary>
+<details><summary><b>Answer</b></summary>
 <p>
 
-#### Respuesta: B
+#### Answer: B
 
 Android se usó por primera vez en septiembre de 2008. El primer móvil comercial con Android fue el HTC Desire. El Nokia N73 fue el móvil más vendido en el último trimestre del 2006 y usaba Symbian, el sistema operativo de Nokia
 
