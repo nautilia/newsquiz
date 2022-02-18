@@ -13,9 +13,6 @@
 
 ###### 1. En 2006 se presenta el primer móvil Android
 
-``` 
-```
-
 - A: el Galaxy S1 de Samsung
 - B: No existía Android
 - C: El HTC Desire
@@ -33,91 +30,59 @@ Android se usó por primera vez en septiembre de 2008. El primer móvil comercia
 
 ---
 
-###### 2. What's the output?
+###### 2. ¿Cuál era el fabricante con más cuota en el 2006?
 
-```javascript
-for (var i = 0; i < 3; i++) {
-  setTimeout(() => console.log(i), 1);
-}
-
-for (let i = 0; i < 3; i++) {
-  setTimeout(() => console.log(i), 1);
-}
-```
-
-- A: `0 1 2` and `0 1 2`
-- B: `0 1 2` and `3 3 3`
-- C: `3 3 3` and `0 1 2`
+- A: Samsung
+- B: Apple
+- C: Nokia
+- D: BlackBerry
 
 <details><summary><b>Answer</b></summary>
 <p>
 
 #### Answer: C
 
-Because of the event queue in JavaScript, the `setTimeout` callback function is called _after_ the loop has been executed. Since the variable `i` in the first loop was declared using the `var` keyword, this value was global. During the loop, we incremented the value of `i` by `1` each time, using the unary operator `++`. By the time the `setTimeout` callback function was invoked, `i` was equal to `3` in the first example.
-
-In the second loop, the variable `i` was declared using the `let` keyword: variables declared with the `let` (and `const`) keyword are block-scoped (a block is anything between `{ }`). During each iteration, `i` will have a new value, and each value is scoped inside the loop.
+Nokia etc. Apple aún no vendía móviles.
 
 </p>
 </details>
 
 ---
 
-###### 3. What's the output?
+###### 3. ¿Cuál fue la gran innovación en los móviles presentada en el MWC de 2008?
 
-```javascript
-const shape = {
-  radius: 10,
-  diameter() {
-    return this.radius * 2;
-  },
-  perimeter: () => 2 * Math.PI * this.radius,
-};
-
-console.log(shape.diameter());
-console.log(shape.perimeter());
-```
-
-- A: `20` and `62.83185307179586`
-- B: `20` and `NaN`
-- C: `20` and `63`
-- D: `NaN` and `63`
+- A: Cámara
+- B: Reproductor de música
+- C: Pantalla táctil
+- D: Pantalla plegable
 
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: B
+#### Answer: C
 
-Note that the value of `diameter` is a regular function, whereas the value of `perimeter` is an arrow function.
-
-With arrow functions, the `this` keyword refers to its current surrounding scope, unlike regular functions! This means that when we call `perimeter`, it doesn't refer to the shape object, but to its surrounding scope (window for example).
-
-There is no value `radius` on that object, which returns `NaN`.
+Cosas
 
 </p>
 </details>
 
 ---
 
-###### 4. What's the output?
+###### 4. ¿Cuál fue el modelo más vendido en 2006?
 
-```javascript
-+true;
-!'Lydia';
-```
-
-- A: `1` and `false`
-- B: `false` and `NaN`
-- C: `false` and `false`
+- A: Nokia 6070
+- B: Nokia 7360
+- C: Nokia 2310
+- D: Nokia 6300
 
 <details><summary><b>Answer</b></summary>
 <p>
 
 #### Answer: A
 
-The unary plus tries to convert an operand to a number. `true` is `1`, and `false` is `0`.
+Es este
 
-The string `'Lydia'` is a truthy value. What we're actually asking, is "is this truthy value falsy?". This returns `false`.
+<img src="https://m.media-amazon.com/images/I/71FZ7YJwnjS._AC_SY879_.jpg">
 
 </p>
 </details>
@@ -142,7 +107,7 @@ const mouse = {
 - C: `mouse[bird["size"]]` is not valid
 - D: All of them are valid
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Respuesta</b></summary>
 <p>
 
 #### Answer: A
